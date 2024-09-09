@@ -39,7 +39,7 @@
     <div class="uk-container uk-container-small uk-position-relative">
         {@html data.doc.content}
 
-        <div class="tm-sidebar-right uk-visible@l">
+        <div class="tm-sidebar-right uk-visible@l uk-height-1-1">
             <div uk-sticky="offset: 160">
                 <ul
                     class="uk-nav uk-nav-default tm-nav"
@@ -58,7 +58,7 @@
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <span class="uk-margin-small-right" uk-icon="push" />
+                                <span class="uk-margin-small-right" uk-icon="link-external" />
                                 <span class="uk-text-middle">Open test</span>
                             </a>
                         </li>
